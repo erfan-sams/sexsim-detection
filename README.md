@@ -127,7 +127,7 @@ User:   Your task is to classify input text as containing sexism or not. Respond
 - The few-shot version adds an `EXAMPLES:` block before `TEXT:`.
 - Decoding is greedy (no sampling).
 - The few-shot examples are sampled at random without a fixed seed, so a rerun can give different numbers.
-- Any answer other than a clean `YES` or `NO` counts as "not sexist". This happened with 5% of Mistral's few-shot answers.
+- Any answer other than a clean `YES` or `NO` counts as "not sexist". This happened with 5% of Mistral's few-shot answers; counting them as wrong instead gives Mistral 0.71 accuracy.
 
 </details>
 
